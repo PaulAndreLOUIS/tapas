@@ -4,7 +4,6 @@ const { getLeaderBoard } = require('./get-leaderboard');
 
 const race = getRace();
 
-
 const leaderBoard$ = getLeaderBoard(race);
 
 leaderBoard$.subscribe(leaderBoard => {
